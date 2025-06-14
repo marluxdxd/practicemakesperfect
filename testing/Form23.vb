@@ -46,6 +46,7 @@
 
 
             ' Display results
+            'test
             TextBox5.Text = totalroom.ToString("C")
             TextBox6.Text = tax1.ToString("C")
             TextBox7.Text = totalresortfee.ToString("C")
