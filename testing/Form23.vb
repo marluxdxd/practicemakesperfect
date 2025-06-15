@@ -17,11 +17,25 @@
         Dim dblroomrequired As Double
 
 
+        If Not Double.TryParse(introoms.Text, room) Then
+            MessageBox.Show("Please enter valid numeric values for ROOM", "Input Error")
+            Exit Sub
+        End If
 
-        Double.TryParse(introoms.Text, room)
-        Double.TryParse(intnights.Text, nights)
-        Double.TryParse(intadults.Text, adults)
-        Double.TryParse(intchildren.Text, children)
+        If Not Double.TryParse(intnights.Text, nights) Then
+            MessageBox.Show("Please enter valid numeric values for NIGHT", "Input Error")
+            Exit Sub
+        End If
+
+        If Not Double.TryParse(intadults.Text, adults) Then
+            MessageBox.Show("Please enter valid numeric values for all ADULT", "Input Error")
+            Exit Sub
+        End If
+
+        If Not Double.TryParse(intchildren.Text, children) Then
+            MessageBox.Show("Please enter valid numeric values for all CHILDREN", "Input Error")
+            Exit Sub
+        End If
 
 
         intnumguest = adults + children
@@ -58,4 +72,7 @@
 
     End Sub
 
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Me.Close()
+    End Sub
 End Class
