@@ -16,8 +16,7 @@
         Dim totaldue As Double
         Dim dblroomrequired As Double
 
-
-        If Not Double.TryParse(introoms.Text, room) Then
+     'give as error if this 4 input blank or not numeric give the user error prompt individually 
             MessageBox.Show("Please enter valid numeric values for ROOM", "Input Error")
             Exit Sub
         End If
