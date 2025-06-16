@@ -15,7 +15,7 @@
         Dim totalresortfee As Double
         Dim totaldue As Double
         Dim dblroomrequired As Double
-
+    'TEST
      'give as error if this 4 input blank or not numeric give the user error prompt individually 
             MessageBox.Show("Please enter valid numeric values for ROOM", "Input Error")
             Exit Sub
