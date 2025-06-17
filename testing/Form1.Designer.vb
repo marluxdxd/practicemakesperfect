@@ -46,6 +46,8 @@ Partial Class Form1
         Me.P233ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.GrossPay2P234ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.YouDoIt5235ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.MarluToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.P238ToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.LoginMdhToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.P238ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.F20PToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -53,7 +55,6 @@ Partial Class Form1
         Me.F22P2ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.LoginMdhToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.NotifyIcon1 = New System.Windows.Forms.NotifyIcon(Me.components)
-        Me.MarluToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -117,7 +118,7 @@ Partial Class Form1
         '
         'ExerciseToolStripMenuItem
         '
-        Me.ExerciseToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CurrencyCalculaltorToolStripMenuItem, Me.PenniesCalcultorToolStripMenuItem, Me.CarProjectToolStripMenuItem, Me.CreToolStripMenuItem, Me.ChangeToolStripMenuItem, Me.ChangePhToolStripMenuItem, Me.ConversionFunctionToolStripMenuItem, Me.TradingStoreToolStripMenuItem, Me.KettlesonBonusCalculatorP221ToolStripMenuItem, Me.LowestHighestP224ToolStripMenuItem, Me.SumOrDifference224ToolStripMenuItem, Me.YouDoIt3ToolStripMenuItem, Me.YouDoIt4ToolStripMenuItem, Me.P233ToolStripMenuItem, Me.GrossPay2P234ToolStripMenuItem, Me.YouDoIt5235ToolStripMenuItem, Me.MarluToolStripMenuItem})
+        Me.ExerciseToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CurrencyCalculaltorToolStripMenuItem, Me.PenniesCalcultorToolStripMenuItem, Me.CarProjectToolStripMenuItem, Me.CreToolStripMenuItem, Me.ChangeToolStripMenuItem, Me.ChangePhToolStripMenuItem, Me.ConversionFunctionToolStripMenuItem, Me.TradingStoreToolStripMenuItem, Me.KettlesonBonusCalculatorP221ToolStripMenuItem, Me.LowestHighestP224ToolStripMenuItem, Me.SumOrDifference224ToolStripMenuItem, Me.YouDoIt3ToolStripMenuItem, Me.YouDoIt4ToolStripMenuItem, Me.P233ToolStripMenuItem, Me.GrossPay2P234ToolStripMenuItem, Me.YouDoIt5235ToolStripMenuItem, Me.MarluToolStripMenuItem, Me.P238ToolStripMenuItem1})
         Me.ExerciseToolStripMenuItem.Name = "ExerciseToolStripMenuItem"
         Me.ExerciseToolStripMenuItem.Size = New System.Drawing.Size(60, 20)
         Me.ExerciseToolStripMenuItem.Text = "exercise"
@@ -218,6 +219,18 @@ Partial Class Form1
         Me.YouDoIt5235ToolStripMenuItem.Size = New System.Drawing.Size(241, 22)
         Me.YouDoIt5235ToolStripMenuItem.Text = "you do it5 p235"
         '
+        'MarluToolStripMenuItem
+        '
+        Me.MarluToolStripMenuItem.Name = "MarluToolStripMenuItem"
+        Me.MarluToolStripMenuItem.Size = New System.Drawing.Size(241, 22)
+        Me.MarluToolStripMenuItem.Text = "marlu p234"
+        '
+        'P238ToolStripMenuItem1
+        '
+        Me.P238ToolStripMenuItem1.Name = "P238ToolStripMenuItem1"
+        Me.P238ToolStripMenuItem1.Size = New System.Drawing.Size(241, 22)
+        Me.P238ToolStripMenuItem1.Text = "Jonas Manufacturing p238"
+        '
         'LoginMdhToolStripMenuItem
         '
         Me.LoginMdhToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.P238ToolStripMenuItem, Me.F20PToolStripMenuItem, Me.F21PToolStripMenuItem, Me.F22P2ToolStripMenuItem})
@@ -259,12 +272,6 @@ Partial Class Form1
         '
         Me.NotifyIcon1.Text = "NotifyIcon1"
         Me.NotifyIcon1.Visible = True
-        '
-        'MarluToolStripMenuItem
-        '
-        Me.MarluToolStripMenuItem.Name = "MarluToolStripMenuItem"
-        Me.MarluToolStripMenuItem.Size = New System.Drawing.Size(241, 22)
-        Me.MarluToolStripMenuItem.Text = "marlu p234"
         '
         'Form1
         '
@@ -318,4 +325,5 @@ Partial Class Form1
     Friend WithEvents NotifyIcon1 As NotifyIcon
     Friend WithEvents F22P2ToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents MarluToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents P238ToolStripMenuItem1 As ToolStripMenuItem
 End Class

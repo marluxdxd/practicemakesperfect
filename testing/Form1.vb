@@ -161,4 +161,10 @@ Public Class Form1
         dashboard.Show()
         Me.Hide()
     End Sub
+
+    Private Sub P238ToolStripMenuItem1_Click(sender As Object, e As EventArgs) Handles P238ToolStripMenuItem1.Click
+        Dim dashnboard As New Form24()
+        dashnboard.Show()
+        Me.Hide()
+    End Sub
 End Class
