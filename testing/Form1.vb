@@ -167,4 +167,16 @@ Public Class Form1
         dashnboard.Show()
         Me.Hide()
     End Sub
+
+    Private Sub JonasConP238ToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles JonasConP238ToolStripMenuItem.Click
+        Dim dashnboard As New Form25()
+        dashnboard.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub TeaTimeCompanyP238ToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles TeaTimeCompanyP238ToolStripMenuItem.Click
+        Dim dashboard As New Form26()
+        dashboard.Show()
+        Me.Hide()
+    End Sub
 End Class
