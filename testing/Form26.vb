@@ -5,7 +5,7 @@
 
     Private Sub calculate_Click(sender As Object, e As EventArgs) Handles calculate.Click
         Dim intPoundTea As Integer
-        Dim decPricePerPound As Integer = 250D ' Assuming the price per pound of tea is 250
+        Const decPricePerPound As Integer = 250D ' Assuming the price per pound of tea is 250
         Dim result As DialogResult
         Dim decTotal As Decimal
         Dim decShippingFee As Decimal = 0D
@@ -40,5 +40,9 @@
         TotalAmount.Text = String.Empty
         ShippingFee.Text = String.Empty
         Price.Text = String.Empty
+    End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Me.Close()
     End Sub
 End Class

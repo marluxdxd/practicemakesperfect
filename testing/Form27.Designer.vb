@@ -22,9 +22,130 @@ Partial Class Form27
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        components = New System.ComponentModel.Container
+        Me.totalAmount = New System.Windows.Forms.TextBox()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.item2 = New System.Windows.Forms.TextBox()
+        Me.item1 = New System.Windows.Forms.TextBox()
+        Me.calculate = New System.Windows.Forms.Button()
+        Me.test = New System.Windows.Forms.Label()
+        Me.SuspendLayout()
+        '
+        'totalAmount
+        '
+        Me.totalAmount.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.totalAmount.Location = New System.Drawing.Point(208, 119)
+        Me.totalAmount.Name = "totalAmount"
+        Me.totalAmount.Size = New System.Drawing.Size(141, 31)
+        Me.totalAmount.TabIndex = 61
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(32, 125)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(139, 25)
+        Me.Label1.TabIndex = 59
+        Me.Label1.Text = "Total Amount"
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Location = New System.Drawing.Point(32, 86)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(70, 25)
+        Me.Label4.TabIndex = 58
+        Me.Label4.Text = "Item 2"
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(32, 52)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(70, 25)
+        Me.Label3.TabIndex = 57
+        Me.Label3.Text = "Item 1"
+        '
+        'Button1
+        '
+        Me.Button1.AutoSize = True
+        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.Location = New System.Drawing.Point(166, 233)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(67, 35)
+        Me.Button1.TabIndex = 56
+        Me.Button1.Text = "Exit"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
+        'item2
+        '
+        Me.item2.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.item2.Location = New System.Drawing.Point(208, 80)
+        Me.item2.Name = "item2"
+        Me.item2.Size = New System.Drawing.Size(141, 31)
+        Me.item2.TabIndex = 55
+        '
+        'item1
+        '
+        Me.item1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.item1.Location = New System.Drawing.Point(208, 46)
+        Me.item1.Name = "item1"
+        Me.item1.Size = New System.Drawing.Size(141, 31)
+        Me.item1.TabIndex = 54
+        '
+        'calculate
+        '
+        Me.calculate.AutoSize = True
+        Me.calculate.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.calculate.Location = New System.Drawing.Point(37, 233)
+        Me.calculate.Name = "calculate"
+        Me.calculate.Size = New System.Drawing.Size(112, 35)
+        Me.calculate.TabIndex = 53
+        Me.calculate.Text = "Calculate"
+        Me.calculate.UseVisualStyleBackColor = True
+        '
+        'test
+        '
+        Me.test.AutoSize = True
+        Me.test.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.test.Location = New System.Drawing.Point(53, 181)
+        Me.test.Name = "test"
+        Me.test.Size = New System.Drawing.Size(70, 25)
+        Me.test.TabIndex = 62
+        Me.test.Text = "Ouput"
+        '
+        'Form27
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Text = "Form27"
+        Me.Controls.Add(Me.test)
+        Me.Controls.Add(Me.totalAmount)
+        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.Label4)
+        Me.Controls.Add(Me.Label3)
+        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.item2)
+        Me.Controls.Add(Me.item1)
+        Me.Controls.Add(Me.calculate)
+        Me.Name = "Form27"
+        Me.Text = "Mercy's Department Store"
+        Me.ResumeLayout(False)
+        Me.PerformLayout()
+
     End Sub
+    Friend WithEvents totalAmount As TextBox
+    Friend WithEvents Label1 As Label
+    Friend WithEvents Label4 As Label
+    Friend WithEvents Label3 As Label
+    Friend WithEvents Button1 As Button
+    Friend WithEvents item2 As TextBox
+    Friend WithEvents item1 As TextBox
+    Friend WithEvents calculate As Button
+    Friend WithEvents test As Label
 End Class

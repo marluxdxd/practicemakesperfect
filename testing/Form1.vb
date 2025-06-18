@@ -179,4 +179,10 @@ Public Class Form1
         dashboard.Show()
         Me.Hide()
     End Sub
+
+    Private Sub MercyToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles MercyToolStripMenuItem.Click
+        Dim dashboard As New Form27()
+        dashboard.Show()
+        Me.Hide()
+    End Sub
 End Class
