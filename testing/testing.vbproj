@@ -356,6 +356,9 @@
     <EmbeddedResource Include="Form27.resx">
       <DependentUpon>Form27.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form28.resx">
+      <DependentUpon>Form28.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form3.resx">
       <DependentUpon>Form3.vb</DependentUpon>
     </EmbeddedResource>

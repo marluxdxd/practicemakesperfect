@@ -185,4 +185,10 @@ Public Class Form1
         dashboard.Show()
         Me.Hide()
     End Sub
+
+    Private Sub CorondoIndustriesP265ToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CorondoIndustriesP265ToolStripMenuItem.Click
+        Dim dashboard As New Form28()
+        dashboard.Show()
+        Me.Hide()
+    End Sub
 End Class
