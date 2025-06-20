@@ -191,4 +191,10 @@ Public Class Form1
         dashboard.Show()
         Me.Hide()
     End Sub
+
+    Private Sub P265ToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles P265ToolStripMenuItem.Click
+        Dim dashboard As New Form29()
+        dashboard.Show()
+        Me.Hide()
+    End Sub
 End Class
