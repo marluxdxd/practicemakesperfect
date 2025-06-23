@@ -6,28 +6,24 @@
         Dim small As Double
         Dim result As Double
 
-
         If Double.TryParse(num1.Text, input1) AndAlso Double.TryParse(num2.Text, input2) Then
-
             If input1 > input2 Then
                 big = input1
                 small = input2
-
             Else
                 big = input2
                 small = input1
             End If
 
             If small = 0 Then
-                output1.Text = "Cannot divide by 0"
+                output1.Text = "Cannot divided by 0"
             Else
                 result = big / small
                 output1.Text = "Result: " & result.ToString()
             End If
-
-
         Else
-            MessageBox.Show("Please input a valid number in Input 1 & Input 2")
+            MessageBox.Show("Please input a valid number input1 & input2")
         End If
+
     End Sub
 End Class
